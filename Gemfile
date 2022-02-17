@@ -18,6 +18,8 @@ gem "puma", "~> 5.0"
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem "importmap-rails"
 
+gem 'cocoon'
+
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
 
@@ -40,6 +42,8 @@ gem "jbuilder"
 gem 'tzinfo', '~> 2.0', '>= 2.0.4'
 
 gem 'tzinfo-data', '~> 1.2021', '>= 1.2021.5'
+
+gem 'webpacker', '~> 6.0.0.rc.6'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
