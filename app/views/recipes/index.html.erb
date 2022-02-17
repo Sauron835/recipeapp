@@ -10,5 +10,7 @@
     </p>
   <% end %>
 </div>
+<td><%= image_tag recipe.image.url, class: "recipe-show" if recipe.image? %></td>
 
+ 
 <%= link_to "New recipe", new_recipe_path %>

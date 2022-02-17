@@ -8,7 +8,11 @@
 
 <% end %>
 </ul>
+<% if @recipe.image? %>
 
+<%= image_tag @recipe.image.url, class: "recipe-show" %>
+
+<% end %>
 <h3>Steps</h3>
 <ol>
 <% for @step in @recipe.steps %>
